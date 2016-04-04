@@ -1,0 +1,11 @@
+This is project 1 : solving a Sudoku
+using backtrack(not improved)skill
+you can get inputs by using "readIn" or giveQuestion"two functions
+"transform" the question(switch two numbers positions, transpose, change big columns or big rows, flip, and rotate)
+"solve" it(backtrace to run recursion finding possible result from top block to the bottom, "precheck" is to check the blocks first,if the block has only one place to fill in, then fix the solution, reducing the possiblies for other blocks(though it didn`t improve any speed XD)
+"prejudge"is useless(original thought is to check two or more solutions, but bactrace can accomplish it)
+the program is able to find no soltion,only solution and print it out, and more than one solution(but not print them out)
+
+Compilation: make(including "Sudoku.h", "Sudoku.cpp", "giveQuestion.cpp", "solve.cpp", "transform.cpp")
+Execution: ./Sudoku (for input 81 numbers by keyboard)
+			./Sudoku < (exist Sudoku file)
